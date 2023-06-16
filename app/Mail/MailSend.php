@@ -60,9 +60,10 @@ class MailSend extends Mailable
 
     public function build()
     {
-        return $this
+        return $this->view('emails.main', ['mess' => $this->mess]);
+        /* return $this
             ->view('mail') // название шаблона письма
             ->subject('Заголовок письма') // заголовок письма
-            ->with(['mess' => $this->mess]); // передача данных в шаблон письма
+            ->with(['mess' => $this->mess]); // передача данных в шаблон письма */
     }
 }
