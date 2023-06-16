@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/',[IndexPageController::class,'index'])->name('index');
+
+Route::post('/send_mail', [IndexPageController::class, 'send_mail'])->name('send_mail');
