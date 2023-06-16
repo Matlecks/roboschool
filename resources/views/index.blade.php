@@ -32,77 +32,98 @@
     {{-- Баннер и шапка --}}
     <div class="" style="background:#141024; min-height: 850px;">
         {{-- Шапка --}}
-        <div class="col-11 mx-auto d-flex justify-content-between align-items-center"
+        <div class="col-11 mx-auto d-flex flex-wrap justify-content-between align-items-center"
             style="height: 80px;">
             <div class="fw-bold" style="color: #ffffff; font-size: 30px">ROBO.SCHOOL</div>
-            <div class="d-flex justify-content-between col-3">
-                <a href="" class="text-decoration-none"
-                    style="color: #ffffff; font-size: 18px; font-family: Montserrat;">О
-                    школе</a>
-                <a href="" class="text-decoration-none"
-                    style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Тренеры</a>
-                <a href="" class="text-decoration-none"
-                    style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Стоимость</a>
+            <div class="col-4 d-lg-block d-none">
+                <div class="d-flex justify-content-between">
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">О
+                        школе</a>
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Тренеры</a>
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Стоимость</a>
+                </div>
             </div>
             <div class="fw-bold">
                 <a href="tel:+7 800 000 11 22" class="text-decoration-none"
                     style="color: #ffffff; font-size: 30px; font-family: Montserrat;">+7 800 000 11
                     22</a>
             </div>
+            <div class="col-12 d-lg-none d-md-block mt-4">
+                <div class="d-flex justify-content-between text-center">
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">О
+                        школе</a>
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Тренеры</a>
+                    <a href="" class="text-decoration-none col-4"
+                        style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Стоимость</a>
+                </div>
+            </div>
         </div>
         {{-- Баннер --}}
-        <div class="col-8 mx-auto d-flex justify-content-between align-items-center"
+        <div class="col-lg-8 col-11 mx-auto d-flex flex-wrap justify-content-between align-items-center"
             style="padding-top: 50px;">
-            <div class="col-6">
-                <div class="fw-bold" style="color: #ffffff; font-size: 60px;">ROBO SCHOOL</div>
-                <div class="my-5"
+            <div class="col-lg-6 col-12">
+                <div class="fw-bold text-lg-start text-center"
+                    style="color: #ffffff; font-size: 60px;">ROBO SCHOOL</div>
+                <div class="my-5 text-lg-start text-center"
                     style="color: #ffffff; font-size: 18px; font-family: Montserrat;">Курсы
                     повышения квалификации по робототехнике<br>для педагогов
                     начальной школы</div>
-                <a href="" class="btn py-4 px-5"
+                <div class="d-lg-block d-md-block d-none">
+                    <div class="d-flex justify-content-lg-start justify-content-center ">
+                        <a href="" class="btn py-4 px-5 "
+                            style="background: #D52027; color: #ffffff; font-family: Montserrat">Записаться
+                            на курс</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-12 mx-auto mt-lg-0 mt-5">
+                <img src="storage/ssss.png" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div
+                class="d-flex justify-content-lg-start justify-content-center col-12 d-lg-none d-md-none d-block pb-4">
+                <a href="" class="btn col-12 py-4 px-5"
                     style="background: #D52027; color: #ffffff; font-family: Montserrat">Записаться
                     на курс</a>
-            </div>
-            <div class="col-6"
-                style="/* background: url('storage/circle.png');background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat; */">
-                <img src="storage/ssss.png" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
     </div>
     {{-- О нас --}}
-    <div class="col-8 mx-auto d-flex flex-wrap align-items-center" style="min-height: 600px;">
+    <div class="col-lg-8 col-11 mx-auto d-flex flex-wrap align-items-center"
+        style="min-height: 600px;">
         <div class="col-12">
             <div class="col-12 mt-5" style="font-family: Montserrat; font-size: 25px;"><span
                     class="fw-bold ">Robo School</span> - учреждение для формирования кадрового<br>
                 педагогического
                 резерва в сфере робототехники<br> и программирования</div>
-            <div class="d-flex justify-content-between mt-5">
-                <div class="col-3">
-                    <span
-                        style="font-family: Roboto; font-weight:900; font-size: 70px; color:#D52027;">10</span><br>
-                    <span style="color: #5B5866; font-size: 18px; font-family: Montserrat;">УМК по
-                        различным<br> направлениям по робототехнике</span>
+            <div class="d-flex flex-wrap justify-content-between mt-5 pb-lg-0 pb-5 text-lg-start text-md-start text-center">
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-0 mt-4">
+                    <span style="font-family: Roboto; font-weight:900; font-size: 70px; color:#D52027;">10</span><br>
+                    <span class="col-12" style="color: #5B5866; font-size: 18px; font-family: Montserrat;">УМК по
+                        различным<br> направлениям по<br> робототехнике</span>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-0 mt-4">
                     <span
                         style="font-family: Roboto; font-weight:900; font-size: 70px; color:#D52027;">20</span><br>
-                    <span style="color: #5B5866; font-size: 18px; font-family: Montserrat;">Школ, в
+                    <span class="col-md-12" style="color: #5B5866; font-size: 18px; font-family: Montserrat;">Школ, в
                         которых запущена<br>робототехника</span>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-0 mt-4">
                     <span
                         style="font-family: Roboto; font-weight:900; font-size: 70px; color:#D52027;">100</span><br>
-                    <span
+                    <span class="col-md-12"
                         style="color: #5B5866; font-size: 18px; font-family: Montserrat;">Педагогов
                         прошедших курсы<br>повышения квалификации</span>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-0 mt-4">
                     <span
                         style="font-family: Roboto; font-weight:900; font-size: 70px; color:#D52027;">10
                         000</span><br>
-                    <span
+                    <span class="col-md-12"
                         style="color: #5B5866; font-size: 18px; font-family: Montserrat;">Обученных
                         детей на базе<br>собственных центров</span>
                 </div>
@@ -110,14 +131,16 @@
         </div>
     </div>
     {{-- Что вы получите после курса --}}
-    <div class="" style="background: #F9F9F9; min-height: 500px;">
-        <div class="col-8 mx-auto d-flex flex-wrap align-items-center" style="min-height: 500px;">
-            <div class="col-12">
+    <div class="" style="background: #F9F9F9;">
+        <div class="col-lg-8 col-11 mx-auto d-flex flex-wrap align-items-center"
+            style="min-height: 500px;">
+            <div class="col-12 p-lg-0 p-md-0 py-5">
                 <span
-                    style="color: #000000; font-size: 45px; font-family: Roboto; font-weight: 900;">Что
+                    style="color: #000000; font-size: 40px; font-family: Roboto; font-weight: 900;">Что
                     вы получите после курса</span>
-                <div class="d-flex justify-content-between align-items-center mt-5">
-                    <div class="">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mt-5">
+                    <div
+                        class="col-lg-4 col-md-6 col-12 text-lg-start text-md-start text-center">
                         <p
                             style="font-family: Montserrat; font-weight:900; font-size: 22px; color:#000000;">
                             Удостоверение
@@ -128,7 +151,8 @@
                             право преподавать робототехнику<br>для детей 6-12 лет в
                             образовательных<br>учреждениях</p>
                     </div>
-                    <div class="">
+                    <div
+                        class="col-lg-4 col-md-6 col-12 text-lg-start text-md-start text-center ps-lg-0 ps-md-4 ps-0 py-lg-0 py-md-0 py-4">
                         <p
                             style="font-family: Montserrat; font-weight:900; font-size: 22px; color:#000000;">
                             Знания
@@ -139,7 +163,8 @@
                             разработки учебно-<br>методических комплексов<br>по робототехнике и
                             программированию</p>
                     </div>
-                    <div class="">
+                    <div
+                        class="col-lg-4 col-md-6 col-12 text-lg-start text-md-start text-center">
                         <p
                             style="font-family: Montserrat; font-weight:900; font-size: 22px; color:#000000;">
                             Практику
@@ -155,17 +180,19 @@
     </div>
     {{-- Профессиональные тренеры --}}
     <div class="" style="background: #ffffff;">
-        <div class="col-8 mx-auto d-flex flex-wrap {{-- align-items-center --}}"
-            style="min-height: 900px;">
+        <div class="col-lg-8 col-11 mx-auto d-flex align-items-center"
+            style="min-height: 1000px;">
             <div class="col-12">
-                <span
-                    style="color: #000000; font-size: 45px; font-family: Roboto; font-weight: 900;">Что
-                    вы получите после курса</span>
-                <div class="d-flex justify-content-between align-items-center mt-5">
+                <span class=""
+                    style="color: #000000; font-size: 40px; font-family: Roboto; font-weight: 900;">Профессиональные
+                    тренеры</span>
+                <div class="d-flex justify-content-between flex-wrap mt-5">
                     @foreach ($teachers as $teacher)
-                        <div class="col-4 px-3" style="height: 550px;">
-                            <img src="{{ $teacher->img }}"
-                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 25px;">
+                        <div class="col-lg-4 col-md-6 col-12 px-3 pb-lg-0 pb-4">
+                            <div class="col-12" style="height: 550px;">
+                                <img src="{{ $teacher->img }}"
+                                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 25px;">
+                            </div>
                             <p class="fw-bold mt-3"
                                 style="color: #000000; font-size: 25px; font-family: Montserrat; font-weight: 900;">
                                 {{ $teacher->name }} {{ $teacher->surname }}</p>
@@ -183,16 +210,16 @@
     </div>
     {{-- Выберите нужный пакет --}}
     <div class="" style="background: #ffffff;">
-        <div class="col-8 mx-auto d-flex flex-wrap {{-- align-items-center --}}"
+        <div class="col-lg-8 col-11 mx-auto d-flex flex-wrap"
             style="min-height: 750px;">
             <div class="col-12">
                 <span
-                    style="color: #000000; font-size: 45px; font-family: Roboto; font-weight: 900;">Выберите
+                    style="color: #000000; font-size: 40px; font-family: Roboto; font-weight: 900;">Выберите
                     нужный пакет</span>
-                <div class="d-flex justify-content-between align-items-center mt-5">
+                <div class="d-flex justify-content-between flex-wrap mt-5">
                     @foreach ($services as $service)
-                        <div class="col-4 px-3" style="height: 550px;">
-                            <div class="border text-center p-5" style="border-radius: 25px;">
+                        <div class="col-lg-4 col-md-6 col-12 px-3" {{-- style="height: 550px;" --}}>
+                            <div class="border text-center px-lg-5 px-0 py-lg-5 py-2 mb-lg-0 mb-4" style="border-radius: 25px;">
                                 <p class="fw-bold mt-3"
                                     style="color: #000000; font-size: 35px; font-family: Roboto; font-weight: 900;">
                                     - {{ $service->title }} -</p>
@@ -202,7 +229,7 @@
                                 <p class="mt-3"
                                     style="color: #D52027; font-size: 18px; font-family: Montserrat;">
                                     {!! $service->anounce_text !!}</p>
-                                <button type="button" class="btn py-4 px-5 mt-4"
+                                <button type="button" class="btn py-4 px-5 mt-4 mb-lg-0 mb-4"
                                     style="background: #D52027; font-size: 16px; font-family: Montserrat; color:#ffffff;">Оставить
                                     заявку</button>
                             </div>
@@ -214,19 +241,19 @@
     </div>
     {{-- Запишитесь на курс со скидкой 10% --}}
     <div class="" style="background: #D52027;">
-        <div class="col-8 mx-auto d-flex flex-wrap align-items-center" style="min-height: 500px;">
-            <div class="col-12 d-flex justify-content-evenly">
-                <div class="col-6">
-                    <p
+        <div class="col-lg-8 col-11 mx-auto d-flex align-items-center" style="min-height: 500px;">
+            <div class="col-12 d-flex flex-wrap justify-content-evenly py-5">
+                <div class="col-lg-6 col-12">
+                    <p class="text-lg-start text-center"
                         style="color: #ffffff; font-size: 30px; font-family: Montserrat; font-weight: 900;">
                         Запишитесь
                         на курс<br> со скидкой 10%</p>
                     <br>
-                    <p class="mt-1"
+                    <p class="mt-1 text-lg-start text-center"
                         style="color: #ffffff; font-size: 20px; font-family: Montserrat; ">Акция
                         действительна до 10 марта 2024 года</p>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 col-12">
                     <form action="" method="">
                         <input type="text" class="form-control py-3"
                             style="border: none; color:#5B5866; font-family: Montserrat"
@@ -253,8 +280,8 @@
         <div class="col-10 mx-auto d-flex flex-wrap justify-content-between align-items-center"
             style="min-height: 170px;">
             <div class="">
-            <p class="fw-bold" style="color: #ffffff; font-size: 30px">ROBO.SCHOOL</p>
-            <p class="" style="color:#ffffff; font-size: 18px">© ROBO.SCHOOL</p>
+                <p class="fw-bold" style="color: #ffffff; font-size: 30px">ROBO.SCHOOL</p>
+                <p class="" style="color:#ffffff; font-size: 18px">© ROBO.SCHOOL</p>
             </div>
             <a href="tel:+7 800 000 11 22" class="text-decoration-none"
                 style="color: #ffffff; font-size: 30px; font-family: Montserrat;">+7 800 000 11
