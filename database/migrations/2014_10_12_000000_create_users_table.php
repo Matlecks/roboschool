@@ -3,6 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 
 return new class extends Migration
 {
@@ -17,14 +19,16 @@ return new class extends Migration
             $table->id();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->text('name');
-            $table->text('surname');
-            $table->text('img');
-            $table->text('job');
-            $table->text('experience');
-            $table->text('education');
-            $table->text('awards');
+            $table->string('password')->nullable();
+            $table->text('name')->nullable();
+            $table->text('surname')->nullable();
+            $table->text('img')->nullable();
+            $table->text('job')->nullable();
+            $table->text('experience')->nullable();
+            $table->text('education')->nullable();
+            $table->text('awards')->nullable();
+            $table->text('role')->nullable();
+            $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
         });

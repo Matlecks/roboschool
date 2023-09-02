@@ -519,10 +519,12 @@ class ComposerStaticInit9dad3d9758d834acf16f87c43fa822f5
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\generateSitemap' => __DIR__ . '/../..' . '/app/Console/Commands/generateSitemap.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\IndexPageController' => __DIR__ . '/../..' . '/app/Http/Controllers/IndexPageController.php',
+        'App\\Http\\Controllers\\Index_2Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Index_2Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -532,8 +534,13 @@ class ComposerStaticInit9dad3d9758d834acf16f87c43fa822f5
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Mail\\MailSend' => __DIR__ . '/../..' . '/app/Mail/MailSend.php',
+        'App\\Models\\Admin_Menu' => __DIR__ . '/../..' . '/app/Models/Admin_Menu.php',
+        'App\\Models\\Mail_letter' => __DIR__ . '/../..' . '/app/Models/Mail_letter.php',
         'App\\Models\\Service' => __DIR__ . '/../..' . '/app/Models/Service.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\Visual_setting' => __DIR__ . '/../..' . '/app/Models/Visual_setting.php',
+        'App\\Notifications\\MailIncomNotification' => __DIR__ . '/../..' . '/app/Notifications/MailIncomNotification.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
